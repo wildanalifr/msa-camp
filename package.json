@@ -1,0 +1,29 @@
+{
+  "name": "msa-camp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.0",
+    "daisyui": "^4.10.2",
+    "init": "^0.1.2",
+    "lodash": "^4.17.21",
+    "vue": "^3.4.21",
+    "vue-router": "4",
+    "vue3-google-map": "^0.20.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
